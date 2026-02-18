@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import requests
-API_KEY = "PASTE_YOUR_SPOONACULAR_KEY_HERE"
+API_KEY = c2e9118c7e0945a9a2b2144aa6b3da7c
 
 # --- 1. GLOBAL CONFIGURATION & LANGUAGES ---
 st.set_page_config(page_title="Leftovers App", page_icon="🥗", layout="wide")
