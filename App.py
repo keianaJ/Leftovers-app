@@ -68,7 +68,7 @@ if ing_list:
         danger = [i for i in ing_list if any(toxic in i for toxic in DOG_TOXIC)]
         if danger: st.error(f"{t['toxic_warn']} {', '.join(danger)}"); search_disabled = True
         else: st.success(t['safe_msg']); search_disabled = False
-    else:
+    else: no
         st.success(t['safe_msg']); search_disabled = False
 
 # --- 7. ACTION BUTTONS ---
